@@ -1,0 +1,34 @@
+China e-commerce price monitor 2026-11-21T00:53:00Z (previous run 2026-11-20T00:53:00Z)
+
+Prices for 保温 杯, in yuan:
+  platform     items    lowest    median   highest
+  Taobao           3     58.71     79.90    169.90
+  1688             3      3.50      7.50     13.00
+  Xianyu           2     30.00     40.00     50.00
+  Douyin Shop      3     13.99     13.99     16.80
+  Taobao median is 10.7x the 1688 median.
+
+Tracked products:
+  ¥7.99 · 1688 · 浙江天诺工贸有限公司 · was ¥8.11, 579,665 sold · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
+    https://detail.1688.com/offer/594208233163.html
+  ¥50.00 · Xianyu · seller_a · was ¥55.00, 0 sold · 全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M
+    https://www.goofish.com/item?id=929052713117
+  no price in this answer · Douyin Shop · 彬果果小店 · 480,002 sold · 【特价800毫升】大容量吊带壶保温杯车载家用户外保冷保热带茶漏
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3800712905230516353
+
+Biggest price drops since the last run:
+  Of 8 products seen before: 3 cheaper, 1 dearer, 4 unchanged.
+  -¥10.00 (-11.1%) · Taobao · 苏泊尔餐饮具旗舰店 · ¥89.90 → ¥79.90 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯新款杯子，大容…
+    https://item.taobao.com/item.htm?id=827389194551
+  -¥5.00 (-9.1%) · Xianyu · seller_a · ¥55.00 → ¥50.00 · 全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M
+    https://www.goofish.com/item?id=929052713117
+  -¥0.12 (-1.5%) · 1688 · 浙江天诺工贸有限公司 · ¥8.11 → ¥7.99 · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
+    https://detail.1688.com/offer/594208233163.html
+
+New in the search results, never seen before: 3
+  ¥169.90 · Taobao · HAERS哈尔斯官方旗舰店 · 哈尔斯儿童保温杯女生双饮水杯新款吸管杯子男孩学生上学专用水壶
+    https://item.taobao.com/item.htm?id=884376076768
+  ¥30.00 · Xianyu · seller_c · 全新 铃兰花保温杯 500ml 奶白色，316不锈钢内胆。翻 盖双饮口…
+    https://www.goofish.com/item?id=1097991209133
+  ¥13.99 · Douyin Shop · 义乌市鼎威家居用品厂的小店 · 【特价福利】大容量手提式吊带保温杯车载家用便携户外运动保冷保热
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3846565211578433931&origin_type=2631

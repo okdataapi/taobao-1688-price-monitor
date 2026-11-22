@@ -1,0 +1,67 @@
+name: monitor
+
+# Takes one price snapshot a day and commits data/snapshots.csv back to the repository.
+# Set what to monitor under Settings -> Secrets and variables -> Actions -> Variables:
+#   KEYWORDS     search keywords, one per line, e.g. "露营灯" and "保温杯" on two lines
+#   TRACK        products to read by ID, one per line, as PLATFORM:ID or the product link
+#   PLATFORMS    where to search: taobao, 1688, xianyu, douyin_shop, comma-separated, or all (default taobao,1688)
+#   PAGES        search pages per keyword and platform (default 1)
+#   REPORT_LANG  en or zh (default en)
+# With neither KEYWORDS nor TRACK set, it monitors 露营灯 (camping lantern) on Taobao and 1688.
+# The key goes in the repository secret OKDATA_API_KEY; without it the run is skipped.
+
+on:
+  schedule:
+    - cron: "53 0 * * *"   # every day at 00:53 UTC, 08:53 in China
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: monitor
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Take a snapshot
+        env:
+          OKDATA_API_KEY: ${{ secrets.OKDATA_API_KEY }}
+          KEYWORDS: ${{ vars.KEYWORDS }}
+          TRACK: ${{ vars.TRACK }}
+          PLATFORMS: ${{ vars.PLATFORMS || 'taobao,1688' }}
+          PAGES: ${{ vars.PAGES || '1' }}
+          REPORT_LANG: ${{ vars.REPORT_LANG || 'en' }}
+        run: |
+          if [ -z "${OKDATA_API_KEY//[[:space:]]/}" ]; then
+            echo "::notice::Add an OKDATA_API_KEY repository secret to start monitoring prices."
+            echo "Skipped: no OKDATA_API_KEY secret yet." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if [ -z "${KEYWORDS//[[:space:]]/}${TRACK//[[:space:]]/}" ]; then
+            KEYWORDS="露营灯"
+          fi
+          args=()
+          while IFS= read -r line; do [ -n "${line// }" ] && args+=(--keyword "$line"); done <<< "$KEYWORDS"
+          while IFS= read -r line; do [ -n "${line// }" ] && args+=(--track "$line"); done <<< "$TRACK"
+          rc=0
+          python monitor.py "${args[@]}" --platforms "$PLATFORMS" --pages "$PAGES" --lang "$REPORT_LANG" --out data \
+            > "$RUNNER_TEMP/report.txt" || rc=$?
+          cat "$RUNNER_TEMP/report.txt"
+          { echo '~~~~~~'; cat "$RUNNER_TEMP/report.txt"; echo '~~~~~~'; } >> "$GITHUB_STEP_SUMMARY"
+          exit $rc
+      - name: Commit the CSV
+        if: always()
+        run: |
+          [ -f data/snapshots.csv ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/snapshots.csv   # data/ is in .gitignore for local runs
+          git diff --cached --quiet && exit 0
+          git commit -m "data: price snapshot $(date -u +%F)"
+          git pull --rebase
+          git push

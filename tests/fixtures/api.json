@@ -1,0 +1,895 @@
+{
+ "runs": [
+  {
+   "run_at": "2026-11-20T00:53:00Z",
+   "search": {
+    "taobao": [
+     [
+      {
+       "id": "827389194551",
+       "url": "https://item.taobao.com/item.htm?id=827389194551",
+       "title": "苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯新款杯子，大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携",
+       "price": 89.9,
+       "original_price": 129,
+       "currency": "CNY",
+       "sold": 10000,
+       "reviews": null,
+       "images": [
+        "https://g.search1.alicdn.com/img/bao/uploaded/i4/i2/2157661959/O1CN01QJTxh0IdY3K1chua_!!4611686018427383559-0-item_pic.jpg"
+       ],
+       "shop": {
+        "id": "2157661959",
+        "name": "苏泊尔餐饮具旗舰店"
+       },
+       "ext": {
+        "subtitle": "收藏加购优先发货 七天无理由退换货",
+        "ships_from": "湖北 鄂州",
+        "tmall": true,
+        "deal": "活动价",
+        "buyers_label": "1万+"
+       }
+      },
+      {
+       "id": "643029593406",
+       "url": "https://item.taobao.com/item.htm?id=643029593406",
+       "title": "富光智能保温杯大容量男士女高档泡茶杯学生不锈钢便携商务水杯子",
+       "price": 58.71,
+       "original_price": 269,
+       "currency": "CNY",
+       "sold": 10000,
+       "reviews": null,
+       "images": [
+        "https://g.search3.alicdn.com/img/bao/uploaded/i4/i2/341393033/O1CN01ysZhlM1YHAInztvcS_!!4611686018427387529-0-item_pic.jpg"
+       ],
+       "shop": {
+        "id": "341393033",
+        "name": "富光旗舰店"
+       },
+       "ext": {
+        "subtitle": "316L不锈钢内胆智能显温长效保温杯",
+        "ships_from": "安徽 合肥",
+        "tmall": true,
+        "deal": "活动价",
+        "buyers_label": "1万+"
+       }
+      },
+      {
+       "id": "711116364505",
+       "url": "https://item.taobao.com/item.htm?id=711116364505",
+       "title": "=HYPERLINK(\"x\") 保温杯\n测试",
+       "price": 79,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 10000,
+       "reviews": null,
+       "images": [
+        "https://g.search3.alicdn.com/img/bao/uploaded/i4/i2/1652864050/O1CN01H8fc0yKIy0H2vH2e-1652864050.jpg"
+       ],
+       "shop": {
+        "id": "1652864050",
+        "name": "@测试店"
+       },
+       "ext": {
+        "subtitle": null,
+        "ships_from": "广东 广州",
+        "tmall": true,
+        "deal": "0",
+        "buyers_label": "1万+"
+       }
+      }
+     ]
+    ],
+    "alibaba_1688": [
+     [
+      {
+       "id": "594208233163",
+       "url": "https://detail.1688.com/offer/594208233163.html",
+       "title": "不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发",
+       "price": 7.79,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 4,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01aDqDnM1ezwnKBMKoj_!!2049233943-0-cib.jpg"
+       ],
+       "shop": {
+        "id": "b2b-2049233943",
+        "name": "浙江天诺工贸有限公司",
+        "url": "https://shop1397062762465.1688.com"
+       },
+       "ext": {
+        "min_order": 1,
+        "orders": 306073,
+        "repurchase_rate": "29%",
+        "tags": [
+         "退货包运费",
+         "回头率59%",
+         "代发包邮"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": true,
+        "supplier_years": 13,
+        "supplier_score": 4.5,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      },
+      {
+       "id": "679196644025",
+       "url": "https://detail.1688.com/offer/679196644025.html",
+       "title": "跨境亚马逊20oz汽车杯双层真空304不锈钢保温保冷车载冰霸杯批发",
+       "price": 12.5,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 5,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01JfL4Hc4hhRE1bRra_!!2212974153328-0-cib.jpg"
+       ],
+       "shop": {
+        "id": "b2b-221297415332828db0",
+        "name": "永康市致兴工贸有限公司",
+        "url": "https://shop8236969b19fq7.1688.com"
+       },
+       "ext": {
+        "min_order": null,
+        "orders": 193,
+        "repurchase_rate": "11%",
+        "tags": [
+         "退货包运费",
+         "先采后付",
+         "回头率81%"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": false,
+        "supplier_years": 5,
+        "supplier_score": 4.5,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      }
+     ],
+     [
+      {
+       "id": "569483826725",
+       "url": "https://detail.1688.com/offer/569483826725.html",
+       "title": "新款富硒紫砂杯商务办公保温杯不锈钢便携水杯会销礼品印logo印字",
+       "price": 3.5,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 3.33,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/2768908067_1051520355.jpg"
+       ],
+       "shop": {
+        "id": "b2b-2465851836",
+        "name": "永康市舟山弘志五金厂",
+        "url": "https://shop1426497502238.1688.com"
+       },
+       "ext": {
+        "min_order": 2,
+        "orders": 808,
+        "repurchase_rate": "10%",
+        "tags": [
+         "退货包运费",
+         "先采后付",
+         "回头率30%"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": false,
+        "supplier_years": 12,
+        "supplier_score": 4,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      }
+     ]
+    ],
+    "xianyu": [
+     [
+      {
+       "id": "929052713117",
+       "url": "https://www.goofish.com/item?id=929052713117",
+       "title": "全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M MJ-A361，容量分别为480ml和360ml。弹跳款式，非常方便携带。白色设计，适合日常使用。Made in China，保证质量。有包装，未拆封。有意者联系我，支持验货。 甘肃-青海-内蒙古-宁夏--运费+5,新疆西藏+20 每天17...",
+       "price": 55,
+       "original_price": 138,
+       "currency": "CNY",
+       "images": [
+        "https://img.alicdn.com/bao/uploaded/i4/O1CN014e7zkj22ITwBo2R2b_!!4611686018427385081-0-fleamarket.jpg"
+       ],
+       "shop": {
+        "name": "seller_a"
+       },
+       "ext": {
+        "area": "上海",
+        "wants": 0,
+        "published_at": "2025-05-24T06:10:20.000Z",
+        "tag": "包邮"
+       }
+      },
+      {
+       "id": "1054382906298",
+       "url": "https://www.goofish.com/item?id=1054382906298",
+       "title": "粉色吸管杯，带绿色手柄和吸管，容量大，杯盖可直接喝水，304 不锈钢材质，适合日常用。成色还可以，盖口有破损有点使用痕迹，天津市自提5块，外省市邮费自理。",
+       "price": 3.7,
+       "original_price": null,
+       "currency": "CNY",
+       "images": [
+        "https://img.alicdn.com/bao/uploaded/i4/70950330/O1CN01x1HscI1EJBqTABAzd_!!4611686018427387322-53-xy_item.heic"
+       ],
+       "shop": {
+        "name": "seller_b"
+       },
+       "ext": {
+        "area": "天津",
+        "wants": 0,
+        "published_at": "2026-05-29T06:40:08.000Z",
+        "tag": "极好"
+       }
+      }
+     ]
+    ],
+    "douyin_shop": [
+     [
+      {
+       "id": "3800712905230516353",
+       "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3800712905230516353&origin_type=2631",
+       "title": "【特价800毫升】大容量吊带壶保温杯车载家用户外保冷保热带茶漏",
+       "price": 13.99,
+       "currency": "CNY",
+       "sold": 209283,
+       "images": [
+        "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_c16df0f6d6ff2f92fe0c40fb0b41f426_sx_478515_www2454-2454"
+       ],
+       "shop": {
+        "id": "252031421",
+        "name": "彬果果小店"
+       },
+       "ext": {
+        "sold_label": "month",
+        "commission_rate": 0.1,
+        "commission_per_sale": 1.4,
+        "creators_selling": 4332,
+        "shop_score": 83,
+        "category": [
+         "餐饮厨具",
+         "水具",
+         "保温杯"
+        ],
+        "tags": [
+         "流量扶持",
+         "现货"
+        ],
+        "promotion_id": "3800715842912649665"
+       }
+      },
+      {
+       "id": "3826520231778582978",
+       "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3826520231778582978&origin_type=2631",
+       "title": "新款316复古罗马小钢炮不锈钢保温杯户外便携茶水分离大容量水杯",
+       "price": 16.8,
+       "currency": "CNY",
+       "sold": 36138,
+       "images": [
+        "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_a9e01bf2a04b6bac7ebbad86bd5a3170_sx_103141_www800-800"
+       ],
+       "shop": {
+        "id": "118427670",
+        "name": "虢豫贸易商行"
+       },
+       "ext": {
+        "sold_label": "month",
+        "commission_rate": 0.15,
+        "commission_per_sale": 2.52,
+        "creators_selling": 2231,
+        "shop_score": 88,
+        "category": [
+         "餐饮厨具",
+         "水具",
+         "保温杯"
+        ],
+        "tags": [
+         "高结算率",
+         "流量扶持",
+         "运费险",
+         "现货"
+        ],
+        "promotion_id": "3826826877453074666"
+       }
+      }
+     ]
+    ]
+   },
+   "get": {
+    "594208233163": {
+     "id": "594208233163",
+     "url": "https://detail.1688.com/offer/594208233163.html",
+     "title": "不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发",
+     "price": 8.11,
+     "original_price": 12.77,
+     "currency": "CNY",
+     "sold": 579665,
+     "images": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01aDqDnM1ezwnKBMKoj_!!2049233943-0-cib.jpg"
+     ],
+     "shop": {
+      "id": "b2b-2049233943",
+      "name": "浙江天诺工贸有限公司",
+      "url": "https://winport.m.1688.com/page/index.html?memberId=b2b-2049233943"
+     },
+     "ext": {
+      "price_max": 12.77,
+      "tiered_prices": [],
+      "min_order": 1,
+      "unit": "个",
+      "sold_this_year": 579665,
+      "stock": 1248724,
+      "sold_out": false,
+      "video": null,
+      "properties": {
+       "品牌": "天诺"
+      },
+      "skus": [
+       {
+        "id": "6220918826480",
+        "name": "颜色:直杯 哑光深蓝;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 7.3,
+        "original_price": 8.11,
+        "stock": 41502
+       },
+       {
+        "id": "6220918826451",
+        "name": "颜色:橡胶漆款 杏雨梨云;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 10.3,
+        "original_price": 11.44,
+        "stock": 49217
+       },
+       {
+        "id": "6220918826458",
+        "name": "颜色:直杯 红色;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 7.3,
+        "original_price": 8.11,
+        "stock": 23753
+       }
+      ],
+      "ships_from": "浙江省金华市",
+      "shipping_fee": 1.5,
+      "services": [
+       "7天无理由退货",
+       "晚发必赔"
+      ],
+      "listed_at": "2019-05-13T09:10:56.000Z",
+      "supplier_user_id": "2049233943"
+     }
+    },
+    "929052713117": {
+     "id": "929052713117",
+     "url": "https://www.goofish.com/item?id=929052713117",
+     "title": "全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M",
+     "price": 55,
+     "original_price": null,
+     "currency": "CNY",
+     "sold": 0,
+     "images": [
+      "https://img.alicdn.com/bao/uploaded/i4/O1CN01htdODo22ITw8VpRXL_!!4611686018427385081-53-fleamarket.heic"
+     ],
+     "shop": {
+      "id": "2219773007097",
+      "name": "seller_a"
+     },
+     "ext": {
+      "description": "全新日本虎牌保温杯，未拆封。",
+      "condition": null,
+      "labels": {
+       "分类": "保温杯",
+       "品牌": "TIGER/虎牌"
+      },
+      "views": 5266,
+      "wants": 317,
+      "favorites": 140,
+      "shipping_fee": 0,
+      "status": "在线",
+      "published_at": "2025-05-24T06:10:20.000Z",
+      "seller_city": "上海",
+      "seller_items_sold": 2137,
+      "seller_days": 563,
+      "seller_last_seen": "32分钟前来过"
+     }
+    },
+    "3800712905230516353": {
+     "id": "3800712905230516353",
+     "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3800712905230516353",
+     "title": "【特价800毫升】大容量吊带壶保温杯车载家用户外保冷保热带茶漏",
+     "currency": "CNY",
+     "sold": 473810,
+     "images": [
+      "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_c16df0f6d6ff2f92fe0c40fb0b41f426_sx_478515_www2454-2454"
+     ],
+     "shop": {
+      "id": "252031421",
+      "name": "彬果果小店"
+     },
+     "ext": {
+      "good_review_rate": 0.883,
+      "detail_images": [],
+      "white_background_image": null,
+      "services": [
+       "极速退款",
+       "7天无理由退货",
+       "消费者保障服务",
+       "商家资质"
+      ],
+      "cross_border": false,
+      "promotion_id": "3800712905230516353"
+     }
+    }
+   }
+  },
+  {
+   "run_at": "2026-11-21T00:53:00Z",
+   "search": {
+    "taobao": [
+     [
+      {
+       "id": "827389194551",
+       "url": "https://item.taobao.com/item.htm?id=827389194551",
+       "title": "苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯新款杯子，大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携大容量便携",
+       "price": 79.9,
+       "original_price": 129,
+       "currency": "CNY",
+       "sold": 10000,
+       "reviews": null,
+       "images": [
+        "https://g.search1.alicdn.com/img/bao/uploaded/i4/i2/2157661959/O1CN01QJTxh0IdY3K1chua_!!4611686018427383559-0-item_pic.jpg"
+       ],
+       "shop": {
+        "id": "2157661959",
+        "name": "苏泊尔餐饮具旗舰店"
+       },
+       "ext": {
+        "subtitle": "收藏加购优先发货 七天无理由退换货",
+        "ships_from": "湖北 鄂州",
+        "tmall": true,
+        "deal": "活动价",
+        "buyers_label": "1万+"
+       }
+      },
+      {
+       "id": "643029593406",
+       "url": "https://item.taobao.com/item.htm?id=643029593406",
+       "title": "富光智能保温杯大容量男士女高档泡茶杯学生不锈钢便携商务水杯子",
+       "price": 58.71,
+       "original_price": 269,
+       "currency": "CNY",
+       "sold": 10000,
+       "reviews": null,
+       "images": [
+        "https://g.search3.alicdn.com/img/bao/uploaded/i4/i2/341393033/O1CN01ysZhlM1YHAInztvcS_!!4611686018427387529-0-item_pic.jpg"
+       ],
+       "shop": {
+        "id": "341393033",
+        "name": "富光旗舰店"
+       },
+       "ext": {
+        "subtitle": "316L不锈钢内胆智能显温长效保温杯",
+        "ships_from": "安徽 合肥",
+        "tmall": true,
+        "deal": "活动价",
+        "buyers_label": "1万+"
+       }
+      },
+      {
+       "id": "884376076768",
+       "url": "https://item.taobao.com/item.htm?id=884376076768",
+       "title": "哈尔斯儿童保温杯女生双饮水杯新款吸管杯子男孩学生上学专用水壶",
+       "price": 169.9,
+       "original_price": 559,
+       "currency": "CNY",
+       "sold": 1000,
+       "reviews": null,
+       "images": [
+        "https://g.search1.alicdn.com/img/bao/uploaded/i4/i3/831007526/O1CN01BqTlEINKk8D1chua_!!4611686018427382566-2-item_pic.png"
+       ],
+       "shop": {
+        "id": "831007526",
+        "name": "HAERS哈尔斯官方旗舰店"
+       },
+       "ext": {
+        "subtitle": "一盖双饮免费刻字 24H保温 买就送提绳",
+        "ships_from": "浙江 金华",
+        "tmall": true,
+        "deal": "店铺活动",
+        "buyers_label": "1000+"
+       }
+      }
+     ]
+    ],
+    "alibaba_1688": [
+     [
+      {
+       "id": "594208233163",
+       "url": "https://detail.1688.com/offer/594208233163.html",
+       "title": "不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发",
+       "price": 7.5,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 4,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01aDqDnM1ezwnKBMKoj_!!2049233943-0-cib.jpg"
+       ],
+       "shop": {
+        "id": "b2b-2049233943",
+        "name": "浙江天诺工贸有限公司",
+        "url": "https://shop1397062762465.1688.com"
+       },
+       "ext": {
+        "min_order": 1,
+        "orders": 306073,
+        "repurchase_rate": "29%",
+        "tags": [
+         "退货包运费",
+         "回头率59%",
+         "代发包邮"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": true,
+        "supplier_years": 13,
+        "supplier_score": 4.5,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      },
+      {
+       "id": "679196644025",
+       "url": "https://detail.1688.com/offer/679196644025.html",
+       "title": "跨境亚马逊20oz汽车杯双层真空304不锈钢保温保冷车载冰霸杯批发",
+       "price": 13,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 5,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/O1CN01JfL4Hc4hhRE1bRra_!!2212974153328-0-cib.jpg"
+       ],
+       "shop": {
+        "id": "b2b-221297415332828db0",
+        "name": "永康市致兴工贸有限公司",
+        "url": "https://shop8236969b19fq7.1688.com"
+       },
+       "ext": {
+        "min_order": null,
+        "orders": 193,
+        "repurchase_rate": "11%",
+        "tags": [
+         "退货包运费",
+         "先采后付",
+         "回头率81%"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": false,
+        "supplier_years": 5,
+        "supplier_score": 4.5,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      }
+     ],
+     [
+      {
+       "id": "569483826725",
+       "url": "https://detail.1688.com/offer/569483826725.html",
+       "title": "新款富硒紫砂杯商务办公保温杯不锈钢便携水杯会销礼品印logo印字",
+       "price": 3.5,
+       "original_price": null,
+       "currency": "CNY",
+       "sold": 100000,
+       "rating": 3.33,
+       "images": [
+        "https://cbu01.alicdn.com/img/ibank/2768908067_1051520355.jpg"
+       ],
+       "shop": {
+        "id": "b2b-2465851836",
+        "name": "永康市舟山弘志五金厂",
+        "url": "https://shop1426497502238.1688.com"
+       },
+       "ext": {
+        "min_order": 2,
+        "orders": 808,
+        "repurchase_rate": "10%",
+        "tags": [
+         "退货包运费",
+         "先采后付",
+         "回头率30%"
+        ],
+        "supplier_type": "生产加工",
+        "factory": true,
+        "super_factory": false,
+        "supplier_years": 12,
+        "supplier_score": 4,
+        "location": "浙江 永康市",
+        "ad": false
+       }
+      }
+     ]
+    ],
+    "xianyu": [
+     [
+      {
+       "id": "929052713117",
+       "url": "https://www.goofish.com/item?id=929052713117",
+       "title": "全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M MJ-A361，容量分别为480ml和360ml。弹跳款式，非常方便携带。白色设计，适合日常使用。Made in China，保证质量。有包装，未拆封。有意者联系我，支持验货。 甘肃-青海-内蒙古-宁夏--运费+5,新疆西藏+20 每天17...",
+       "price": 50,
+       "original_price": 138,
+       "currency": "CNY",
+       "images": [
+        "https://img.alicdn.com/bao/uploaded/i4/O1CN014e7zkj22ITwBo2R2b_!!4611686018427385081-0-fleamarket.jpg"
+       ],
+       "shop": {
+        "name": "seller_a"
+       },
+       "ext": {
+        "area": "上海",
+        "wants": 0,
+        "published_at": "2025-05-24T06:10:20.000Z",
+        "tag": "包邮"
+       }
+      },
+      {
+       "id": "1097991209133",
+       "url": "https://www.goofish.com/item?id=1097991209133",
+       "title": "全新 铃兰花保温杯 500ml 奶白色，316不锈钢内胆。翻 盖双饮口设计，配吸管和直饮口，喝热水、咖啡、奶茶都合适。保温保冷都不错，密封性好，倒置不漏水。杯身铃兰线稿图案，颜值挺高，带COFFEE挂绳提手，通勤、办公室、车载携带都方便。配件齐全，个人闲置转让，支持邮寄包邮，可小刀。闲置物品售出不退不换，看好再拍～",
+       "price": 30,
+       "original_price": 36,
+       "currency": "CNY",
+       "images": [
+        "https://img.alicdn.com/bao/uploaded/i3/2860996725/O1CN01Nu7FU9d86vB2vHAO_!!4611686018427385973-0-xy_item.jpg"
+       ],
+       "shop": {
+        "name": "seller_c"
+       },
+       "ext": {
+        "area": "广东",
+        "wants": 0,
+        "published_at": "2026-11-06T00:49:22.000Z",
+        "tag": "全新/包邮/极好"
+       }
+      }
+     ]
+    ],
+    "douyin_shop": [
+     [
+      {
+       "id": "3800712905230516353",
+       "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3800712905230516353&origin_type=2631",
+       "title": "【特价800毫升】大容量吊带壶保温杯车载家用户外保冷保热带茶漏",
+       "price": 13.99,
+       "currency": "CNY",
+       "sold": 209283,
+       "images": [
+        "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_c16df0f6d6ff2f92fe0c40fb0b41f426_sx_478515_www2454-2454"
+       ],
+       "shop": {
+        "id": "252031421",
+        "name": "彬果果小店"
+       },
+       "ext": {
+        "sold_label": "month",
+        "commission_rate": 0.1,
+        "commission_per_sale": 1.4,
+        "creators_selling": 4332,
+        "shop_score": 83,
+        "category": [
+         "餐饮厨具",
+         "水具",
+         "保温杯"
+        ],
+        "tags": [
+         "流量扶持",
+         "现货"
+        ],
+        "promotion_id": "3800715842912649665"
+       }
+      },
+      {
+       "id": "3826520231778582978",
+       "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3826520231778582978&origin_type=2631",
+       "title": "新款316复古罗马小钢炮不锈钢保温杯户外便携茶水分离大容量水杯",
+       "price": 16.8,
+       "currency": "CNY",
+       "sold": 36138,
+       "images": [
+        "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_a9e01bf2a04b6bac7ebbad86bd5a3170_sx_103141_www800-800"
+       ],
+       "shop": {
+        "id": "118427670",
+        "name": "虢豫贸易商行"
+       },
+       "ext": {
+        "sold_label": "month",
+        "commission_rate": 0.15,
+        "commission_per_sale": 2.52,
+        "creators_selling": 2231,
+        "shop_score": 88,
+        "category": [
+         "餐饮厨具",
+         "水具",
+         "保温杯"
+        ],
+        "tags": [
+         "高结算率",
+         "流量扶持",
+         "运费险",
+         "现货"
+        ],
+        "promotion_id": "3826826877453074666"
+       }
+      },
+      {
+       "id": "3846565211578433931",
+       "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3846565211578433931&origin_type=2631",
+       "title": "【特价福利】大容量手提式吊带保温杯车载家用便携户外运动保冷保热",
+       "price": 13.99,
+       "currency": "CNY",
+       "sold": 53371,
+       "images": [
+        "https://p9-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_8e66d7b169877b13e10abebaa0b3df9f_sx_107861_www772-772"
+       ],
+       "shop": {
+        "id": "2584753",
+        "name": "义乌市鼎威家居用品厂的小店"
+       },
+       "ext": {
+        "sold_label": "month",
+        "commission_rate": 0.1,
+        "commission_per_sale": 1.4,
+        "creators_selling": 363,
+        "shop_score": 80,
+        "category": [
+         "餐饮厨具",
+         "水具",
+         "保温杯"
+        ],
+        "tags": [
+         "现货"
+        ],
+        "promotion_id": "3846572280893276514"
+       }
+      }
+     ]
+    ]
+   },
+   "get": {
+    "594208233163": {
+     "id": "594208233163",
+     "url": "https://detail.1688.com/offer/594208233163.html",
+     "title": "不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发",
+     "price": 7.99,
+     "original_price": 12.77,
+     "currency": "CNY",
+     "sold": 579665,
+     "images": [
+      "https://cbu01.alicdn.com/img/ibank/O1CN01aDqDnM1ezwnKBMKoj_!!2049233943-0-cib.jpg"
+     ],
+     "shop": {
+      "id": "b2b-2049233943",
+      "name": "浙江天诺工贸有限公司",
+      "url": "https://winport.m.1688.com/page/index.html?memberId=b2b-2049233943"
+     },
+     "ext": {
+      "price_max": 12.77,
+      "tiered_prices": [],
+      "min_order": 1,
+      "unit": "个",
+      "sold_this_year": 579665,
+      "stock": 1248724,
+      "sold_out": false,
+      "video": null,
+      "properties": {
+       "品牌": "天诺"
+      },
+      "skus": [
+       {
+        "id": "6220918826480",
+        "name": "颜色:直杯 哑光深蓝;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 7.3,
+        "original_price": 8.11,
+        "stock": 41502
+       },
+       {
+        "id": "6220918826451",
+        "name": "颜色:橡胶漆款 杏雨梨云;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 10.3,
+        "original_price": 11.44,
+        "stock": 49217
+       },
+       {
+        "id": "6220918826458",
+        "name": "颜色:直杯 红色;容量:（含税价）所有系列材质保真假一赔十",
+        "price": 7.3,
+        "original_price": 8.11,
+        "stock": 23753
+       }
+      ],
+      "ships_from": "浙江省金华市",
+      "shipping_fee": 1.5,
+      "services": [
+       "7天无理由退货",
+       "晚发必赔"
+      ],
+      "listed_at": "2019-05-13T09:10:56.000Z",
+      "supplier_user_id": "2049233943"
+     }
+    },
+    "929052713117": {
+     "id": "929052713117",
+     "url": "https://www.goofish.com/item?id=929052713117",
+     "title": "全新日本Tiger虎牌梦重力保温杯，型号MMJ-A481和M",
+     "price": 50,
+     "original_price": null,
+     "currency": "CNY",
+     "sold": 0,
+     "images": [
+      "https://img.alicdn.com/bao/uploaded/i4/O1CN01htdODo22ITw8VpRXL_!!4611686018427385081-53-fleamarket.heic"
+     ],
+     "shop": {
+      "id": "2219773007097",
+      "name": "seller_a"
+     },
+     "ext": {
+      "description": "全新日本虎牌保温杯，未拆封。",
+      "condition": null,
+      "labels": {
+       "分类": "保温杯",
+       "品牌": "TIGER/虎牌"
+      },
+      "views": 5266,
+      "wants": 320,
+      "favorites": 140,
+      "shipping_fee": 0,
+      "status": "在线",
+      "published_at": "2025-05-24T06:10:20.000Z",
+      "seller_city": "上海",
+      "seller_items_sold": 2137,
+      "seller_days": 563,
+      "seller_last_seen": "32分钟前来过"
+     }
+    },
+    "3800712905230516353": {
+     "id": "3800712905230516353",
+     "url": "https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3800712905230516353",
+     "title": "【特价800毫升】大容量吊带壶保温杯车载家用户外保冷保热带茶漏",
+     "currency": "CNY",
+     "sold": 480002,
+     "images": [
+      "https://p3-aio.ecombdimg.com/obj/ecom-shop-material/jpeg_m_c16df0f6d6ff2f92fe0c40fb0b41f426_sx_478515_www2454-2454"
+     ],
+     "shop": {
+      "id": "252031421",
+      "name": "彬果果小店"
+     },
+     "ext": {
+      "good_review_rate": 0.883,
+      "detail_images": [],
+      "white_background_image": null,
+      "services": [
+       "极速退款",
+       "7天无理由退货",
+       "消费者保障服务",
+       "商家资质"
+      ],
+      "cross_border": false,
+      "promotion_id": "3800712905230516353"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+China e-commerce price monitor 2026-11-22T06:39:36Z (first run)
+
+Prices for 露营灯, in yuan:
+  platform     items    lowest    median   highest
+  Taobao          10      6.90     26.30     36.79
+  1688            20      1.05      3.93     27.00
+  Xianyu          10      5.90     59.50    820.00
+  Douyin Shop     30      3.60     15.40    159.99
+  Taobao median is 6.7x the 1688 median.
+
+Tracked products:
+  ¥99.90 · Taobao · 苏泊尔餐饮具旗舰店 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯
+    https://detail.tmall.com/item.htm?id=827389194551
+  ¥8.11 · 1688 · 浙江天诺工贸有限公司 · 579,665 sold · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
+    https://detail.1688.com/offer/594208233163.html
+
+First snapshot saved. Run it again tomorrow, or a few hours later, to see price drops and new products.
