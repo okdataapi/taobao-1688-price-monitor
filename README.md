@@ -1,6 +1,6 @@
 # taobao-1688-price-monitor: track China e-commerce prices on Taobao, 1688, Xianyu and Douyin Shop
 
-[中文说明](#中文说明)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/okdataapi/taobao-1688-price-monitor/blob/main/price_monitor.ipynb) [中文说明](#中文说明)
 
 What does a camping lantern cost at a 1688 factory, in a Taobao shop, second-hand on Xianyu and in a Douyin Shop?
 Give this script a product keyword such as `露营灯` (camping lantern) or `保温杯` (insulated cup). It searches the
@@ -11,10 +11,9 @@ that are new since the last run.
 
 One Python file, standard library only. No Taobao, 1688 or Douyin account, no Chinese phone number, no cookies, no
 browser automation: the data comes from the [okdata](https://okdata.online/?src=gh-taobao-1688-price-monitor) API. A search page costs $0.022 on 1688
-and Xianyu, $0.043 on Taobao and $0.054 on Douyin Shop; the default run (one keyword on Taobao and 1688) is $0.065.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/okdataapi/taobao-1688-price-monitor/blob/main/price_monitor.ipynb)
-Try it in the browser first: the notebook asks for your key, takes a snapshot and charts the prices by platform.
+and Xianyu, $0.043 on Taobao and $0.054 on Douyin Shop; the default run (one keyword on Taobao and 1688) is $0.065. To
+try it in the browser first, open the Colab notebook (badge above): it asks for your key, takes a snapshot and charts
+the prices by platform.
 
 Good for: cross-border sellers who check 1688 factory prices against Taobao retail before they source, brands
 watching what their category sells for in China, sourcing agents and researchers building a price series, and
@@ -23,50 +22,67 @@ developers who want to give an AI agent live prices from Chinese marketplaces.
 ## What you get
 
 <!-- example:start -->
-The real report of a run on 2026-11-22: one keyword, `露营灯` (camping lantern), on all four platforms, plus a Tmall
-thermos and a 1688 thermos offer followed by ID. 6 calls, $0.196. Progress lines on stderr are left out.
+The real report from the second of two runs an hour apart on 2026-11-22: one keyword, `露营灯` (camping lantern),
+on all four platforms, plus a Tmall thermos and a 1688 thermos offer followed by ID. Each run made 6 calls and cost
+$0.196. Progress lines on stderr are left out, and Xianyu sellers, who are private people, are replaced with
+`seller_a`….
 
 ```console
 $ python3 monitor.py --keyword 露营灯 --platforms all --track taobao:827389194551 --track 1688:594208233163
-China e-commerce price monitor 2026-11-22T06:39:36Z (first run)
+China e-commerce price monitor 2026-11-22T07:41:59Z (previous run 2026-11-22T06:39:36Z)
 
 Prices for 露营灯, in yuan:
   platform     items    lowest    median   highest
   Taobao          10      6.90     26.30     36.79
   1688            20      1.05      3.93     27.00
-  Xianyu          10      5.90     59.50    820.00
-  Douyin Shop     30      3.60     15.40    159.99
+  Xianyu          10      9.00     22.00    210.00
+  Douyin Shop     30      4.99     19.33    159.99
   Taobao median is 6.7x the 1688 median.
 
 Tracked products:
-  ¥99.90 · Taobao · 苏泊尔餐饮具旗舰店 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯
+  ¥99.90 · Taobao · 苏泊尔餐饮具旗舰店 · was ¥99.90 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯
     https://detail.tmall.com/item.htm?id=827389194551
-  ¥8.11 · 1688 · 浙江天诺工贸有限公司 · 579,665 sold · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
+  ¥8.11 · 1688 · 浙江天诺工贸有限公司 · was ¥8.11, 579,665 sold · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
     https://detail.1688.com/offer/594208233163.html
 
-First snapshot saved. Run it again tomorrow, or a few hours later, to see price drops and new products.
+Biggest price drops since the last run:
+  Of 52 products seen before: 0 cheaper, 0 dearer, 52 unchanged.
+  No price went down.
+
+New in the search results, never seen before: 20
+  ¥158.00 · Xianyu · seller_h · 铁锚牌老汽灯，带原包装箱，成色还可以，有点年代感，收藏、摆件 都很合适…
+    https://www.goofish.com/item?id=1013583230890
+  ¥38.00 · Douyin Shop · 暗月官方旗舰店 · 暗月强光手电筒变焦超亮激光户外可充电远射便捷多功能耐用长续航
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3665820867289547181&origin_type=2631
+  ¥210.00 · Xianyu · seller_i · 科乐曼 悬挂式E灯 金属绿 2206770 日本代购 49928261…
+    https://www.goofish.com/item?id=1077106890045
+  ¥29.90 · Douyin Shop · 超星捷个护工厂店 · 可充电小吊扇学生宿舍床上蚊帐小吊扇夜灯学生大风力家用户外露营
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3749690488916148556&origin_type=2631
+  ¥12.50 · Xianyu · seller_g · 跨境户外露营灯太阳能充电野营灯LED球泡灯家用应急夜市地摊灯 太阳能充…
+    https://www.goofish.com/item?id=1078495098977
+  ...and 15 more in the CSV
 ```
 
 What it shows: on the first page sorted by sales, the median camping lantern on Taobao costs 6.7 times the median
-1688 offer (¥26.30 against ¥3.93), and Douyin Shop sits in between at ¥15.40. 16 of the 20 1688 suppliers are in
-Zhejiang, 9 of them in Yiwu. A `保温杯` (insulated cup) search the same afternoon put the gap at 11.1 times
-(¥112.62 against ¥10.14): all ten Taobao results were Tmall stores, and all twenty 1688 offers ship from Jinhua or
-Yongkang in Zhejiang.
+1688 offer (¥26.30 against ¥3.93). 16 of the 20 1688 suppliers are in Zhejiang, 9 of them in Yiwu. Within the hour
+no price moved on Taobao, 1688 or Douyin Shop; what changed was the mix. All ten Xianyu listings and ten of the thirty
+Douyin Shop products were new, which moved the Douyin Shop median from ¥15.40 to ¥19.33. An hour is too short to
+catch price changes, so run it once a day. A `保温杯` (insulated cup) search the same afternoon put the Taobao/1688 gap at 11.1 times (¥112.62
+against ¥10.14): all ten Taobao results were Tmall stores, and all twenty 1688 offers ship from Jinhua or Yongkang in
+Zhejiang.
 
 Every run appends to `data/snapshots.csv`, one row per product:
 
 ```csv
 run_at,source,platform,product_id,title,price,price_high,sku_low,original_price,price_tiers,sold,shop,location,min_order,wants,commission_rate,url
-2026-11-22T06:39:36Z,keyword:露营灯,taobao,1027351823739,led应急灯泡夜市摆摊灯户外露营照明USB充电超长续航专用超亮电灯,10.5,,,11.8,,1000,好货严选工厂,浙江 杭州,,,,https://item.taobao.com/item.htm?id=1027351823739
-2026-11-22T06:39:36Z,keyword:露营灯,alibaba_1688,800583786261,跨境30LED伸缩露营灯马灯手提营地帐篷灯COB夜钓户外照明野营灯,6.5,,,,,100000,义乌市左玲户外用品有限公司,浙江 金华市,1,,,https://detail.1688.com/offer/800583786261.html
-2026-11-22T06:39:36Z,keyword:露营灯,douyin_shop,3848731522114912315,【德系精工】太阳能户外露营照明灯家用夜市摆摊地摊应急灯营地帐篷,16.9,,,,,18333,云境物集,,,,0.16,https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3848731522114912315&origin_type=2631
-2026-11-22T06:39:36Z,track,alibaba_1688,594208233163,不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发,8.11,12.77,7.3,12.77,,579665,浙江天诺工贸有限公司,浙江省金华市,1,,,https://detail.1688.com/offer/594208233163.html
+2026-11-22T07:41:59Z,keyword:露营灯,taobao,1027351823739,led应急灯泡夜市摆摊灯户外露营照明USB充电超长续航专用超亮电灯,10.5,,,11.8,,1000,好货严选工厂,浙江 杭州,,,,https://item.taobao.com/item.htm?id=1027351823739
+2026-11-22T07:41:59Z,keyword:露营灯,alibaba_1688,800583786261,跨境30LED伸缩露营灯马灯手提营地帐篷灯COB夜钓户外照明野营灯,6.5,,,,,100000,义乌市左玲户外用品有限公司,浙江 金华市,1,,,https://detail.1688.com/offer/800583786261.html
+2026-11-22T07:41:59Z,keyword:露营灯,douyin_shop,3848731522114912315,【德系精工】太阳能户外露营照明灯家用夜市摆摊地摊应急灯营地帐篷,16.9,,,,,18333,云境物集,,,,0.16,https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3848731522114912315&origin_type=2631
+2026-11-22T07:41:59Z,track,alibaba_1688,594208233163,不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发,8.11,12.77,7.3,12.77,,579665,浙江天诺工贸有限公司,浙江省金华市,1,,,https://detail.1688.com/offer/594208233163.html
 ```
 
-The whole CSV and the report in English and Chinese are in [`examples/`](examples/); print the report again with
-`python3 monitor.py --report-only --out examples`. Xianyu sellers are private people, so their nicknames are
-replaced with `seller_a`… there. This example is a first run; from the second run on, the report adds the biggest
-price drops and the products that are new.
+Both runs (144 rows) and the report in English and Chinese are in [`examples/`](examples/); print the report again
+with `python3 monitor.py --report-only --out examples`.
 <!-- example:end -->
 
 ## Quick start
@@ -317,32 +333,47 @@ python3 monitor.py --keyword 露营灯 --platforms all --track taobao:8273891945
 第一次运行存下基准快照，报告里先给出价格分布。明天再跑同一条命令，报告里就会多出降价榜和新商品。想把上一份报告换成英文再看一遍，用 `--report-only --lang en`，不调用接口。
 
 <!-- example-zh:start -->
-下面是 2026-11-22 的一次真实运行：关键词「露营灯」搜四个平台，再按 ID 跟踪一个天猫保温杯和一个 1688 保温杯，共 6 次调用，$0.196（略去了 stderr 里的进度信息）：
+下面是 2026-11-22 隔一小时的两次真实运行里第二次的报告：关键词「露营灯」搜四个平台，再按 ID 跟踪一个天猫保温杯和一个 1688 保温杯，每次 6 次调用，$0.196。略去了 stderr 里的进度信息；闲鱼卖家是个人，昵称换成了 `seller_a` 这样的代号。
 
 ```console
 $ python3 monitor.py --keyword 露营灯 --platforms all --track taobao:827389194551 --track 1688:594208233163 --lang zh
-电商价格监控 2026-11-22T06:39:36Z（首次运行）
+电商价格监控 2026-11-22T07:41:59Z（上次 2026-11-22T06:39:36Z）
 
 「露营灯」的价格（元）：
   平台          件数      最低      中位      最高
   淘宝            10      6.90     26.30     36.79
   1688            20      1.05      3.93     27.00
-  闲鱼            10      5.90     59.50    820.00
-  抖音电商        30      3.60     15.40    159.99
+  闲鱼            10      9.00     22.00    210.00
+  抖音电商        30      4.99     19.33    159.99
   淘宝的中位价是 1688 的 6.7 倍。
 
 跟踪的商品：
-  ¥99.90 · 淘宝 · 苏泊尔餐饮具旗舰店 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯
+  ¥99.90 · 淘宝 · 苏泊尔餐饮具旗舰店 · 之前 ¥99.90 · 苏泊尔保温杯316L不锈钢高颜值男女学生儿童便携泡茶水杯
     https://detail.tmall.com/item.htm?id=827389194551
-  ¥8.11 · 1688 · 浙江天诺工贸有限公司 · 销量 579,665 · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
+  ¥8.11 · 1688 · 浙江天诺工贸有限公司 · 之前 ¥8.11，销量 579,665 · 不锈钢保温杯316智能水杯男女士茶水分离高颜值礼品定制杯子批发
     https://detail.1688.com/offer/594208233163.html
 
-已存下第一份快照。明天（或者几小时后）再跑一次，就能看到降价和新出现的商品。
+和上次比降价最多：
+  之前见过的 52 个商品：降价 0 个，涨价 0 个，没变 52 个。
+  没有商品降价。
+
+搜索结果里新出现的商品：20 个
+  ¥158.00 · 闲鱼 · seller_h · 铁锚牌老汽灯，带原包装箱，成色还可以，有点年代感，收藏、摆件 都很合适…
+    https://www.goofish.com/item?id=1013583230890
+  ¥38.00 · 抖音电商 · 暗月官方旗舰店 · 暗月强光手电筒变焦超亮激光户外可充电远射便捷多功能耐用长续航
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3665820867289547181&origin_type=2631
+  ¥210.00 · 闲鱼 · seller_i · 科乐曼 悬挂式E灯 金属绿 2206770 日本代购 49928261…
+    https://www.goofish.com/item?id=1077106890045
+  ¥29.90 · 抖音电商 · 超星捷个护工厂店 · 可充电小吊扇学生宿舍床上蚊帐小吊扇夜灯学生大风力家用户外露营
+    https://haohuo.jinritemai.com/ecommerce/trade/detail/index.html?id=3749690488916148556&origin_type=2631
+  ¥12.50 · 闲鱼 · seller_g · 跨境户外露营灯太阳能充电野营灯LED球泡灯家用应急夜市地摊灯 太阳能充…
+    https://www.goofish.com/item?id=1078495098977
+  ……另外 15 个在 CSV 里
 ```
 
-按销量排的第一页里，淘宝露营灯的中位价是 1688 的 6.7 倍（¥26.30 对 ¥3.93），抖音电商在中间，¥15.40。1688 的 20 家供应商有 16 家在浙江，其中 9 家在义乌。同一天下午搜「保温杯」，差距是 11.1 倍（¥112.62 对 ¥10.14）：淘宝前十全是天猫店，1688 前二十家供应商全在浙江金华和永康。
+按销量排的第一页里，淘宝露营灯的中位价是 1688 的 6.7 倍（¥26.30 对 ¥3.93）。1688 的 20 家供应商有 16 家在浙江，其中 9 家在义乌。一小时内淘宝、1688 和抖音电商没有一个商品改价，变的是搜出来的商品：闲鱼 10 条全换了，抖音电商 30 个里换了 10 个，抖音的中位价因此从 ¥15.40 变成 ¥19.33。一小时太短，看不出价格变化，建议每天跑一次。同一天下午搜「保温杯」，淘宝和 1688 的差距是 11.1 倍（¥112.62 对 ¥10.14）：淘宝前十全是天猫店，1688 前二十家供应商全在浙江金华和永康。
 
-完整的 CSV 和中英文报告在 [`examples/`](examples/) 目录，`python3 monitor.py --report-only --out examples --lang zh` 可以重新打印报告。闲鱼卖家是个人，昵称在示例里换成了 `seller_a` 这样的代号。这是第一次运行的报告，从第二次起会多出降价榜和新出现的商品。
+两次运行的完整 CSV（144 行）和中英文报告在 [`examples/`](examples/) 目录，`python3 monitor.py --report-only --out examples --lang zh` 可以重新打印报告。
 <!-- example-zh:end -->
 
 ### 参数
