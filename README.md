@@ -87,7 +87,7 @@ with `python3 monitor.py --report-only --out examples`.
 
 ## Quick start
 
-1. Get an API key at [okdata.online](https://okdata.online/signup/?src=gh-taobao-1688-price-monitor) (free trial: up to 333 calls). After that you
+1. Get an API key at [okdata.online](https://okdata.online/signup/?src=gh-taobao-1688-price-monitor) ($0.10 of free credit). After that you
    pay per call; there is no subscription.
 2. Put it in your environment and run:
 
@@ -312,7 +312,7 @@ Cursor, Dify and other clients: see [okdata.online/mcp](https://okdata.online/mc
 
 ### 快速开始
 
-1. 在 [okdata](https://okdata.online/zh/signup/?src=gh-taobao-1688-price-monitor) 注册拿一个 Key（以 `okd_` 开头，免费试用，最多可调 333 次），之后按次付费，不用订阅。
+1. 在 [okdata](https://okdata.online/zh/signup/?src=gh-taobao-1688-price-monitor) 注册拿一个 Key（以 `okd_` 开头，免费试用（$0.10 额度）），之后按次付费，不用订阅。
 2. 运行：
 
 ```bash
